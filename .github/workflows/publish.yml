@@ -1,0 +1,36 @@
+name: publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write # quarto publish pushes to gh-pages
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Create gh-pages branch if missing
+        run: |
+          if ! git ls-remote --exit-code origin gh-pages > /dev/null 2>&1; then
+            git config user.email "actions@github.com"
+            git config user.name "github-actions"
+            empty=$(git mktree < /dev/null)
+            git push origin "$(git commit-tree "$empty" -m 'init gh-pages'):refs/heads/gh-pages"
+          fi
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+
+      - uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
