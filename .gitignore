@@ -1,0 +1,10 @@
+/.quarto/
+/_site/
+.jupyter/
+.ipynb_checkpoints/
+**/*.quarto_ipynb
+node_modules/
+.vscode/
+.idea/
+*.swp
+.DS_Store
