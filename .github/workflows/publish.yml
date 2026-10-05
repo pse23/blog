@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # quarto publish pushes to gh-pages
+  contents: write
   pages: write
   id-token: write
 

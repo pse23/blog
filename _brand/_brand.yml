@@ -1,0 +1,55 @@
+color:
+  palette:
+    dark-tyrian-blue: "#17203a"
+    olympic-blue: "#4060a8"
+    vandar-poel-blue: "#0d2e54"
+    deep-grayish-olive: "#56461e"
+    ivory-buff: "#c5b38e"
+    burnt-sienna: "#9f2c10"
+    light-glaucous-blue: "#91adc0"
+    seashell-pink: "#d0b7b2"
+    white: "#d8dce3"
+    red-pantone: "#e63946"
+    honeydew: "#f1faee"
+    powder-blue: "#a8dadc"
+    celadon-blue: "#457b9d"
+    prussian-blue: "#1d3557"
+    # https://coolors.co/palette/30343f-fafaff-e4d9ff-273469-1e2749
+    jet-black: "#30343f"
+    ghost-white: "#fafaff"
+    periwinkle: "#e4d9ff"
+    twilight-indigo: "#273469"
+    space-indigo: "#1e2749"
+  background: #page background
+    light: ghost-white
+    dark: space-indigo
+  foreground: #text-color
+    light: jet-black
+    dark: ghost-white
+  primary:
+    light: twilight-indigo
+    dark: periwinkle
+  secondary:
+    light: space-indigo
+    dark: periwinkle
+  tertiary:
+    light: periwinkle
+    dark: twilight-indigo
+  danger: red-pantone
+  light: ghost-white
+  dark: space-indigo
+
+logo:
+  medium: logo.png
+
+typography:
+  fonts:
+    - family: Fredoka
+      source: google
+      weight: [300, 500, 700]
+  base:
+    family: Fredoka
+    weight: 300
+  headings:
+    family: "Yellowtail, Fredoka"
+    weight: 500

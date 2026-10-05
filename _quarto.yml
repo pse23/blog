@@ -1,6 +1,10 @@
 project:
+  preview:
+    port: 4200
   type: website
   output-dir: _site
+
+brand: _brand/_brand.yml
 
 execute:
   freeze: auto
@@ -12,6 +16,7 @@ website:
   site-url: https://USERNAME.github.io/REPO # TODO
   title: "TODO" # TODO
   navbar:
+    background: "#273469"
     right:
       - about.qmd
       - icon: github
@@ -21,6 +26,9 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: brand
+      dark: brand
+    highlight-style:
+      light: arrow-light
+      dark: arrow-light
     css: styles.css
