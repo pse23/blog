@@ -1,0 +1,7 @@
+/* css styles */
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ&display=swap");
+
+/* Quarto sets banner titles to 600; match the other headings */
+.quarto-title-banner .quarto-title .title {
+  font-weight: 500;
+}

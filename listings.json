@@ -1,0 +1,9 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/deno-example/deno-example.html",
+      "/posts/python-example/python-example.html"
+    ]
+  }
+]

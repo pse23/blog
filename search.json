@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/deno-example/deno-example.html",
+    "href": "posts/deno-example/deno-example.html",
+    "title": "Deno Example",
+    "section": "",
+    "text": "1 + 1\n\n\n2"
+  },
+  {
+    "objectID": "posts/deno-example/deno-example.html#h2",
+    "href": "posts/deno-example/deno-example.html#h2",
+    "title": "Deno Example",
+    "section": "",
+    "text": "1 + 1\n\n\n2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "myblog",
+    "section": "",
+    "text": "Deno Example\n\n\n\n\n\n\n\n\nOct 3, 2026\n\n\nTODO\n\n\n\n\n\n\n\n\n\n\n\n\nPython example\n\n\n\n\n\n\n\n\nOct 3, 2026\n\n\nTODO\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/python-example/python-example.html",
+    "href": "posts/python-example/python-example.html",
+    "title": "Python example",
+    "section": "",
+    "text": "1 + 1\n\n2"
+  }
+]
